@@ -16,11 +16,6 @@ namespace dogRoundUp.Models
 
     }
 
-    public Dog()
-    {
-
-    }
-
     [Required]
     [MaxLength(15)]
     public string Name { get; set; }
